@@ -33,7 +33,7 @@ import org.glassfish.jersey.media.multipart.MultiPartFeature;
  * singleton class that allows interacting with the Soroush server to exchange messages.
  */
 public final class SoroushService {
-    private static final String URL = "https://bot.sapp.ir";
+    private static final String URL = "https://bot.splus.ir";
     private static SoroushService soroushService;
     /**
      * allow Soroush server to be mocked for testing, during testing soroush service will be connected to the
